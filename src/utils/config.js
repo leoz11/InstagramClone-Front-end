@@ -1,5 +1,5 @@
-export const api = "http://localhost:5000/api";
-export const uploads = "http://localhost:5000/uploads";
+export const api = "https://clonegramreact.herokuapp.com/api";
+export const uploads = "https://clonegramreact.herokuapp.com/uploads";
 
 export const requestConfig = (method, data, token = null, image = null) => {
   let config;
